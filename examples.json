@@ -1,0 +1,82 @@
+[
+  {
+    "label": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+    "input": {
+      "tam": "1",
+      "margem": "1",
+      "pato": "1",
+      "idade": "1"
+    },
+    "expected": {
+      "score": 4,
+      "level": "low"
+    },
+    "originalInput": {
+      "tam": "1",
+      "margem": "1",
+      "pato": "1",
+      "idade": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+    "input": {
+      "tam": "2",
+      "margem": "2",
+      "pato": "2",
+      "idade": "1"
+    },
+    "expected": {
+      "score": 7,
+      "level": "mid"
+    },
+    "originalInput": {
+      "tam": "2",
+      "margem": "2",
+      "pato": "2",
+      "idade": "1"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+    "input": {
+      "tam": "3",
+      "margem": "3",
+      "pato": "3",
+      "idade": "2"
+    },
+    "expected": {
+      "score": 11,
+      "level": "high"
+    },
+    "originalInput": {
+      "tam": "3",
+      "margem": "3",
+      "pato": "3",
+      "idade": "2"
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+    "input": {
+      "tam": "2",
+      "margem": "3",
+      "pato": "3",
+      "idade": "2"
+    },
+    "expected": {
+      "score": 10,
+      "level": "high"
+    },
+    "originalInput": {
+      "tam": "2",
+      "margem": "3",
+      "pato": "3",
+      "idade": "2"
+    },
+    "expandedZeroOptions": []
+  }
+]

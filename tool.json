@@ -1,0 +1,251 @@
+{
+  "tool": {
+    "id": "indice-de-van-nuys",
+    "title": "Índice Prognóstico de Van Nuys (USC/VNPI)",
+    "short": "Recidiva local do carcinoma ductal in situ",
+    "spec": [
+      "mastologia",
+      "radioterapia",
+      "cirurgia-oncologica"
+    ],
+    "tier": 1,
+    "desc": "Calcule o índice USC/Van Nuys do carcinoma ductal in situ (tamanho, margem, patologia e idade) e veja a conduta sugerida: excisão isolada, radioterapia ou mastectomia.",
+    "lead": "Estima o risco de recidiva local do carcinoma ductal in situ (CDIS) após cirurgia conservadora e orienta a escolha entre excisão isolada, excisão com radioterapia e mastectomia.",
+    "fields": [
+      [
+        "tam",
+        "Tamanho do CDIS",
+        "radio",
+        {
+          "opts": {
+            "1": "≤ 15 mm",
+            "2": "16 a 40 mm",
+            "3": "≥ 41 mm"
+          }
+        }
+      ],
+      [
+        "margem",
+        "Menor margem livre",
+        "radio",
+        {
+          "opts": {
+            "1": "≥ 10 mm",
+            "2": "1 a 9 mm",
+            "3": "&lt; 1 mm"
+          }
+        }
+      ],
+      [
+        "pato",
+        "Classificação patológica",
+        "radio",
+        {
+          "opts": {
+            "1": "Não alto grau, sem necrose",
+            "2": "Não alto grau, com necrose",
+            "3": "Alto grau (com ou sem necrose)"
+          }
+        }
+      ],
+      [
+        "idade",
+        "Idade",
+        "radio",
+        {
+          "opts": {
+            "1": "&gt; 60 anos",
+            "2": "40 a 60 anos",
+            "3": "&lt; 40 anos"
+          }
+        }
+      ]
+    ],
+    "score": {
+      "label": "USC/VNPI",
+      "unit": "de 12",
+      "bands": [
+        [
+          4,
+          "low",
+          "4 a 6: considerar excisão isolada",
+          "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo."
+        ],
+        [
+          7,
+          "mid",
+          "7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)",
+          "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local."
+        ],
+        [
+          10,
+          "high",
+          "10 a 12: considerar mastectomia",
+          "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível."
+        ]
+      ]
+    },
+    "formula": "<p>Soma de 4 fatores, cada um de 1 a 3 pontos: tamanho, menor margem, classificação patológica (grau nuclear e necrose comedo) e idade. Total de 4 a 12.</p>",
+    "table": [
+      [
+        "Pontos",
+        "Conduta sugerida (Silverstein 2003)"
+      ],
+      [
+        "4 a 6",
+        "Excisão isolada"
+      ],
+      [
+        "7 a 9",
+        "Excisão + radioterapia, ou reexcisão se margem &lt; 10 mm"
+      ],
+      [
+        "10 a 12",
+        "Mastectomia (em geral com reconstrução imediata)"
+      ]
+    ],
+    "tips": [
+      "O índice foi derivado de uma série de um único centro (706 pacientes) e não foi validado prospectivamente por ensaio clínico: as diretrizes (NCCN, ASTRO) não o adotam como critério isolado para omitir radioterapia.",
+      "A margem é o fator mais modificável: com escore intermediário e margem &lt; 10 mm, a reexcisão pode reduzir o escore.",
+      "Em CDIS com receptor de estrogênio positivo, discuta hormonioterapia adjuvante, que o índice não considera.",
+      "Idade &lt; 40 anos soma o máximo de pontos: nessas pacientes, o índice raramente cai na faixa de excisão isolada."
+    ],
+    "sources": [
+      [
+        "Silverstein MJ. The University of Southern California/Van Nuys prognostic index for ductal carcinoma in situ of the breast. Am J Surg, 2003.",
+        "https://doi.org/10.1016/S0002-9610(03)00265-4"
+      ]
+    ],
+    "cases": [
+      [
+        "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        {
+          "tam": "1",
+          "margem": "1",
+          "pato": "1",
+          "idade": "1"
+        },
+        {
+          "score": 4,
+          "level": "low"
+        }
+      ],
+      [
+        "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        {
+          "tam": "2",
+          "margem": "2",
+          "pato": "2",
+          "idade": "1"
+        },
+        {
+          "score": 7,
+          "level": "mid"
+        }
+      ],
+      [
+        "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        {
+          "tam": "3",
+          "margem": "3",
+          "pato": "3",
+          "idade": "2"
+        },
+        {
+          "score": 11,
+          "level": "high"
+        }
+      ],
+      [
+        "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        {
+          "tam": "2",
+          "margem": "3",
+          "pato": "3",
+          "idade": "2"
+        },
+        {
+          "score": 10,
+          "level": "high"
+        }
+      ]
+    ],
+    "batch": "mulher-crianca",
+    "kind": "Escore",
+    "config": {
+      "unit": "de 12",
+      "label": "USC/VNPI",
+      "fields": [
+        [
+          "tam",
+          "radio",
+          0
+        ],
+        [
+          "margem",
+          "radio",
+          0
+        ],
+        [
+          "pato",
+          "radio",
+          0
+        ],
+        [
+          "idade",
+          "radio",
+          0
+        ]
+      ],
+      "bands": [
+        [
+          4,
+          "low",
+          "4 a 6: considerar excisão isolada",
+          "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo."
+        ],
+        [
+          7,
+          "mid",
+          "7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)",
+          "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local."
+        ],
+        [
+          10,
+          "high",
+          "10 a 12: considerar mastectomia",
+          "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível."
+        ]
+      ]
+    },
+    "areaId": "mulher-crianca",
+    "clinicalReview": "pending",
+    "sourceReview": "pending",
+    "sourceFile": "app/content/ferramentas/mulher-crianca.php",
+    "arithmeticTest": {
+      "status": "passed",
+      "testedAt": "2026-09-25",
+      "total": 4,
+      "passed": 4,
+      "failures": []
+    },
+    "independentArithmeticTest": {
+      "status": "not-tested",
+      "testedAt": null,
+      "total": 0,
+      "passed": 0,
+      "cases": []
+    }
+  },
+  "review": {
+    "status": "needs-review",
+    "reason": "Revisão documental e clínica independente pendente.",
+    "clinicalValidation": "not-performed"
+  },
+  "sourceFile": {
+    "path": "app/content/ferramentas/mulher-crianca.php",
+    "sha256": "c37d3fefb430d6ec19144161e40e9a08247f3a10406e2873c8d6a4be8649917c",
+    "bytes": 81915
+  },
+  "clinicalValidation": "not-performed"
+}
