@@ -1,9 +1,11 @@
-/* ELUCENIA standalone integration. Source package metadata and rights: README.md. */
+/* tool-indice-de-van-nuys · Elucenia · https://github.com/Elucenia/tool-indice-de-van-nuys
+   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+   Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"indice-de-van-nuys","title":"Índice Prognóstico de Van Nuys (USC/VNPI)","fields":[["tam","Tamanho do CDIS","radio",{"opts":{"1":"≤ 15 mm","2":"16 a 40 mm","3":"≥ 41 mm"}}],["margem","Menor margem livre","radio",{"opts":{"1":"≥ 10 mm","2":"1 a 9 mm","3":"&lt; 1 mm"}}],["pato","Classificação patológica","radio",{"opts":{"1":"Não alto grau, sem necrose","2":"Não alto grau, com necrose","3":"Alto grau (com ou sem necrose)"}}],["idade","Idade","radio",{"opts":{"1":"&gt; 60 anos","2":"40 a 60 anos","3":"&lt; 40 anos"}}]],"config":{"unit":"de 12","label":"USC/VNPI","fields":[["tam","radio",0],["margem","radio",0],["pato","radio",0],["idade","radio",0]],"bands":[[4,"low","4 a 6: considerar excisão isolada","Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo."],[7,"mid","7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)","A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local."],[10,"high","10 a 12: considerar mastectomia","Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível."]]},"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
