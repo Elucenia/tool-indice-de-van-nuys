@@ -3,14 +3,14 @@
     "id": "indice-de-van-nuys",
     "title": "Índice Prognóstico de Van Nuys (USC/VNPI)",
     "short": "Recidiva local do carcinoma ductal in situ",
+    "desc": "Calcule o índice USC/Van Nuys do carcinoma ductal in situ (tamanho, margem, patologia e idade) e veja a conduta sugerida: excisão isolada, radioterapia ou mastectomia.",
+    "lead": "Estima o risco de recidiva local do carcinoma ductal in situ (CDIS) após cirurgia conservadora e orienta a escolha entre excisão isolada, excisão com radioterapia e mastectomia.",
+    "kind": "Escore",
     "spec": [
       "mastologia",
       "radioterapia",
       "cirurgia-oncologica"
     ],
-    "tier": 1,
-    "desc": "Calcule o índice USC/Van Nuys do carcinoma ductal in situ (tamanho, margem, patologia e idade) e veja a conduta sugerida: excisão isolada, radioterapia ou mastectomia.",
-    "lead": "Estima o risco de recidiva local do carcinoma ductal in situ (CDIS) após cirurgia conservadora e orienta a escolha entre excisão isolada, excisão com radioterapia e mastectomia.",
     "fields": [
       [
         "tam",
@@ -61,55 +61,7 @@
         }
       ]
     ],
-    "score": {
-      "label": "USC/VNPI",
-      "unit": "de 12",
-      "bands": [
-        [
-          4,
-          "low",
-          "4 a 6: considerar excisão isolada",
-          "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo."
-        ],
-        [
-          7,
-          "mid",
-          "7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)",
-          "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local."
-        ],
-        [
-          10,
-          "high",
-          "10 a 12: considerar mastectomia",
-          "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível."
-        ]
-      ]
-    },
     "formula": "<p>Soma de 4 fatores, cada um de 1 a 3 pontos: tamanho, menor margem, classificação patológica (grau nuclear e necrose comedo) e idade. Total de 4 a 12.</p>",
-    "table": [
-      [
-        "Pontos",
-        "Conduta sugerida (Silverstein 2003)"
-      ],
-      [
-        "4 a 6",
-        "Excisão isolada"
-      ],
-      [
-        "7 a 9",
-        "Excisão + radioterapia, ou reexcisão se margem &lt; 10 mm"
-      ],
-      [
-        "10 a 12",
-        "Mastectomia (em geral com reconstrução imediata)"
-      ]
-    ],
-    "tips": [
-      "O índice foi derivado de uma série de um único centro (706 pacientes) e não foi validado prospectivamente por ensaio clínico: as diretrizes (NCCN, ASTRO) não o adotam como critério isolado para omitir radioterapia.",
-      "A margem é o fator mais modificável: com escore intermediário e margem &lt; 10 mm, a reexcisão pode reduzir o escore.",
-      "Em CDIS com receptor de estrogênio positivo, discuta hormonioterapia adjuvante, que o índice não considera.",
-      "Idade &lt; 40 anos soma o máximo de pontos: nessas pacientes, o índice raramente cai na faixa de excisão isolada."
-    ],
     "sources": [
       [
         "Silverstein MJ. The University of Southern California/Van Nuys prognostic index for ductal carcinoma in situ of the breast. Am J Surg, 2003.",
@@ -170,54 +122,6 @@
         }
       ]
     ],
-    "kind": "Escore",
-    "config": {
-      "unit": "de 12",
-      "label": "USC/VNPI",
-      "fields": [
-        [
-          "tam",
-          "radio",
-          0
-        ],
-        [
-          "margem",
-          "radio",
-          0
-        ],
-        [
-          "pato",
-          "radio",
-          0
-        ],
-        [
-          "idade",
-          "radio",
-          0
-        ]
-      ],
-      "bands": [
-        [
-          4,
-          "low",
-          "4 a 6: considerar excisão isolada",
-          "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo."
-        ],
-        [
-          7,
-          "mid",
-          "7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)",
-          "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local."
-        ],
-        [
-          10,
-          "high",
-          "10 a 12: considerar mastectomia",
-          "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível."
-        ]
-      ]
-    },
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -226,17 +130,497 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T16:44:15.389Z",
+      "total": 81,
+      "passed": 81,
+      "sourceRowCount": 81,
+      "uniqueApiInputCount": 81,
+      "sourceContextCount": 81,
+      "embeddedCasesAreSubset": true,
+      "embeddedCaseCount": 4,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "ce07a2ce75925fdac9a68b95128c23e8b21f41e0f5881a1ca576ace68b105625",
+        "total": 81,
+        "bankRowCount": 81,
+        "uniqueApiInputCount": 81,
+        "sourceContextCount": 81,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/seven-limited-source-independent-expectations-final26.json",
+            "sha256": "4b960d8c215321b3f059726a3b7bc6b35f0fe4d63a7ee845fbc6edb535a4f0cc"
+          },
+          {
+            "file": "reports/review-20261003/oncology-four-independent-expectations-final26.json",
+            "sha256": "2c3a5304f6cccc8881724df497af561eb6cfdb3b76e5c016e1c9f0a681c477b5"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+          "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+        },
+        "packagingRequirement": "Copy this V2 strictly scoped complete bank only into fresh frozen26 packages after independent peer; V1 and prior25 archives remain unchanged."
+      },
+      "inputIdentity": {
+        "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+        "audit": {
+          "file": "reports/review-20261003/seven-limited-source-input-identity-final26.json",
+          "sha256": "e184ba55d7cd2c90120c495d3143d067bd5d72ae98b914f22a75fb943e510d94"
+        },
+        "sourceRows": 81,
+        "uniqueApiInputs": 81,
+        "duplicateRows": 0
+      },
+      "scope": "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+      "sources": [
+        {
+          "id": "indice-de-van-nuys",
+          "edition": "Silverstein USC/VNPI2003, four factors including age; not original1996 three-factor VNPI",
+          "url": "https://www.researchgate.net/publication/9054417_The_University_of_Southern_CaliforniaVan_Nuys_prognostic_index_for_ductal_carcinoma_in_situ_of_the_breast",
+          "identity": "DOI10.1016/S0002-9610(03)00265-4; AmJSurg186:337–343",
+          "access": "Original author-hosted full-text extraction opened by web tool; Methods and source scoring paragraphs read directly. PDF click cache-miss and direct HTML capture blocked as access restricted; no local full-paper bytes or visual Table1 review claimed.",
+          "primaryFacts": {
+            "population": "Pure DCIS,706 breast-preservation patients (426 excision alone/280 plus radiation),nonrandomized. Invasive cancer excluded;397 mastectomy patients excluded from local-recurrence analysis.",
+            "table": "Scores1/2/3: size≤15,16–40,≥41mm; margin≥10,1–9,<1mm; non-high grade without/with comedonecrosis, then any high grade; age≥61,40–60,≤39. Four-factor sum4–12.",
+            "caution": "Only selected-category point arithmetic is tested. Histopathology/margin measurement, recurrence model and contemporary treatment recommendation are not validated."
+          },
+          "readScope": [
+            "Original text Methods at indexed lines182–356",
+            "Original text Results and group definitions at lines359–465"
+          ],
+          "notVerified": [
+            "Publisher full PDF/visual original table",
+            "Fractional size/margin gap policy between integer-labelled ranges",
+            "Later2010 fine-tuning and current clinical recommendations"
+          ],
+          "evidenceFiles": []
+        }
+      ],
+      "evidencePath": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+      "evidenceSha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80",
+      "originalEvidence": {
+        "file": "reports/review-20261003/oncology-four-independent-source-check-final26.json",
+        "sha256": "61b59c9f707a2425440f6b71c5deb27cbddf401c9c8be32841a040898c4d1e56"
+      },
+      "independentPeer": {
+        "status": "passed",
+        "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred.",
+        "recordedAt": "2026-10-04T18:58:11.597Z",
+        "scope": "Existing independent technical complete-bank/metadata/helper peer recorded after guarded source26 application. This status does not certify clinical eligibility, full instrument conformance, professional translation or source rights; no new arithmetic/browser execution is claimed by this metadata amendment.",
+        "previousStatus": {
+          "status": "pending",
+          "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred."
+        },
+        "peer": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-independent-peer-final26-v2-r2.json",
+          "sha256": "28a96906dcfa0ce5272da34613c4ca61686204552a235ebc4adbb65e4ff6868c",
+          "summary": {
+            "checks": 18879,
+            "failed": 0,
+            "methods": 7,
+            "sourceRows": 2902,
+            "uniqueInputs": 2902,
+            "freshExecutions": 8706,
+            "helperAssertions": 25953,
+            "metadataMethods": 120,
+            "metadataRows": 52620,
+            "metadataUnique": 52548,
+            "metadataRepeats": 72
+          },
+          "scope": "Root independent peer of exact41 preimages/afterimages; independently frozen2902 input/expected objects checked before imports; public bank numeric projection excludes untested survival, zones, prose and risk codes. Original862fixtures, fields, methods, versions and approvals retained. Exact helper reversal restores all11 previous scopes;21 fresh Node helper executions replay all7 limited numeric components without clinical approval."
+        },
+        "application": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-application-final26.json",
+          "sha256": "3b1cd7d57c7062aa640504095c1a7eca5b051af7c0c0c8d4d5b1965a869080da"
+        },
+        "reviewedBankScope": "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+        "currentBinding": {
+          "source26BankSha256": "4d9935edc279fbce7758bd84543b69979457067d34719899daf515620a369646",
+          "implementations": [
+            {
+              "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
+              "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/indice-de-van-nuys/calculator.js",
+              "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+            },
+            {
+              "file": "apps/command-center/private/tool-code/indice-de-van-nuys/calculator.js",
+              "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+            }
+          ],
+          "subsequentReviewedRebinds": []
+        },
+        "originalFailuresAndScopeQualificationsPreserved": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed"
+      },
+      "actualAdapterExecutions": 243,
+      "actualVmExecutions": 243,
+      "implementations": [
+        {
+          "id": "indice-de-van-nuys",
+          "app": "website",
+          "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
+          "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+        },
+        {
+          "id": "indice-de-van-nuys",
+          "app": "dashboard",
+          "file": "apps/dashboard/private/tool-code/indice-de-van-nuys/calculator.js",
+          "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+        },
+        {
+          "id": "indice-de-van-nuys",
+          "app": "command-center",
+          "file": "apps/command-center/private/tool-code/indice-de-van-nuys/calculator.js",
+          "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+        }
+      ],
+      "qualifications": [
+        "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+        "Original sourceExpected data retained alongside own expected raw-component projections; clinical codes/thresholds and survival fields deliberately excluded from the package replay.",
+        "All862 original historical fixtures/expected values/tolerances and approval flags preserved. Four inline metadata rows are only a declared subset of this complete downloadable bank."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicOutputProjection": {
+        "status": "only-verified-raw-numeric-components",
+        "recordedAt": "2026-10-04T16:49:59.864Z",
+        "sourceEvidence": {
+          "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+          "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+        },
+        "originalBank": {
+          "file": "reports/review-20261003/seven-limited-source-evidence-stage-final26/apps/website/private/tool-code/indice-de-van-nuys/independent-source-cases.json",
+          "sha256": "6d6dcd2fc8b74eb4951bb2a6c85082f03604c3338aa320243affd8018537d94a"
+        },
+        "originalReportsPreserved": true,
+        "excluded": [
+          "Unexposed MASCC risk flag and USC/VNPI group expectations",
+          "MACIS survival and other untested returned raw fields",
+          "Karvonen exercise-zone main display and all untested main display values",
+          "Original API error prose; only rejection presence is tested"
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "USC/VNPI/Silverstein 2003:4 fatores incluindoidade, total 4–12; sem VNPI 3 fatores",
+    "implementationVersion": "indice-de-van-nuys@native-2026-10-03+6869d54ae95f",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/14553846/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Soma de 4 fatores, cada um de 1 a 3 pontos: tamanho, menor margem, classificação patológica (grau nuclear e necrose comedo) e idade. Total de 4 a 12.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "tam",
+            "label": "Tamanho do CDIS",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "≤ 15 mm",
+              "2": "16 a 40 mm",
+              "3": "≥ 41 mm"
+            }
+          },
+          {
+            "key": "margem",
+            "label": "Menor margem livre",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "≥ 10 mm",
+              "2": "1 a 9 mm",
+              "3": "&lt; 1 mm"
+            }
+          },
+          {
+            "key": "pato",
+            "label": "Classificação patológica",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "Não alto grau, sem necrose",
+              "2": "Não alto grau, com necrose",
+              "3": "Alto grau (com ou sem necrose)"
+            }
+          },
+          {
+            "key": "idade",
+            "label": "Idade",
+            "type": "radio",
+            "optional": false,
+            "options": {
+              "1": "&gt; 60 anos",
+              "2": "40 a 60 anos",
+              "3": "&lt; 40 anos"
+            }
+          }
+        ],
+        "hash": "5f50280c67ce2b54a13b605524f6fe36f69ef4821f053b769739ff34f9d8f21f"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Silverstein MJ. The University of Southern California/Van Nuys prognostic index for ductal carcinoma in situ of the breast. Am J Surg, 2003.",
+          "url": "https://doi.org/10.1016/S0002-9610(03)00265-4",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "The University of Southern California/Van Nuys prognostic index for ductal carcinoma in situ of the breast.",
+            "year": "2003",
+            "firstPublicationDate": "2003-10-01",
+            "doi": "10.1016/s0002-9610(03)00265-4",
+            "pmid": "14553846",
+            "journal": "American journal of surgery",
+            "authors": "Silverstein MJ."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/14553846/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "9b0f83a3ee977be989bb75e7590cc174a7d359ba5d455ba3e9f7f18e5985c9c2",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T16:44:15.389Z",
+        "total": 81,
+        "passed": 81,
+        "sourceRowCount": 81,
+        "uniqueApiInputCount": 81,
+        "sourceContextCount": 81,
+        "embeddedCasesAreSubset": true,
+        "embeddedCaseCount": 4,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "ce07a2ce75925fdac9a68b95128c23e8b21f41e0f5881a1ca576ace68b105625",
+          "total": 81,
+          "bankRowCount": 81,
+          "uniqueApiInputCount": 81,
+          "sourceContextCount": 81,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/seven-limited-source-independent-expectations-final26.json",
+              "sha256": "4b960d8c215321b3f059726a3b7bc6b35f0fe4d63a7ee845fbc6edb535a4f0cc"
+            },
+            {
+              "file": "reports/review-20261003/oncology-four-independent-expectations-final26.json",
+              "sha256": "2c3a5304f6cccc8881724df497af561eb6cfdb3b76e5c016e1c9f0a681c477b5"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+            "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+          },
+          "packagingRequirement": "Copy this V2 strictly scoped complete bank only into fresh frozen26 packages after independent peer; V1 and prior25 archives remain unchanged."
+        },
+        "inputIdentity": {
+          "definition": "Distinct JSON input objects within each method after recursively sorting object keys; array order, numeric values and JSON value types preserved. Uses stored input/inputs before implicit default completion, numeric coercion or clinical feature interpretation. Identity across different methods is not collapsed. Repeated scenarios are retained and coverage status is unchanged.",
+          "audit": {
+            "file": "reports/review-20261003/seven-limited-source-input-identity-final26.json",
+            "sha256": "e184ba55d7cd2c90120c495d3143d067bd5d72ae98b914f22a75fb943e510d94"
+          },
+          "sourceRows": 81,
+          "uniqueApiInputs": 81,
+          "duplicateRows": 0
+        },
+        "scope": "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+        "sources": [
+          {
+            "id": "indice-de-van-nuys",
+            "edition": "Silverstein USC/VNPI2003, four factors including age; not original1996 three-factor VNPI",
+            "url": "https://www.researchgate.net/publication/9054417_The_University_of_Southern_CaliforniaVan_Nuys_prognostic_index_for_ductal_carcinoma_in_situ_of_the_breast",
+            "identity": "DOI10.1016/S0002-9610(03)00265-4; AmJSurg186:337–343",
+            "access": "Original author-hosted full-text extraction opened by web tool; Methods and source scoring paragraphs read directly. PDF click cache-miss and direct HTML capture blocked as access restricted; no local full-paper bytes or visual Table1 review claimed.",
+            "primaryFacts": {
+              "population": "Pure DCIS,706 breast-preservation patients (426 excision alone/280 plus radiation),nonrandomized. Invasive cancer excluded;397 mastectomy patients excluded from local-recurrence analysis.",
+              "table": "Scores1/2/3: size≤15,16–40,≥41mm; margin≥10,1–9,<1mm; non-high grade without/with comedonecrosis, then any high grade; age≥61,40–60,≤39. Four-factor sum4–12.",
+              "caution": "Only selected-category point arithmetic is tested. Histopathology/margin measurement, recurrence model and contemporary treatment recommendation are not validated."
+            },
+            "readScope": [
+              "Original text Methods at indexed lines182–356",
+              "Original text Results and group definitions at lines359–465"
+            ],
+            "notVerified": [
+              "Publisher full PDF/visual original table",
+              "Fractional size/margin gap policy between integer-labelled ranges",
+              "Later2010 fine-tuning and current clinical recommendations"
+            ],
+            "evidenceFiles": []
+          }
+        ],
+        "evidencePath": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+        "evidenceSha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80",
+        "originalEvidence": {
+          "file": "reports/review-20261003/oncology-four-independent-source-check-final26.json",
+          "sha256": "61b59c9f707a2425440f6b71c5deb27cbddf401c9c8be32841a040898c4d1e56"
+        },
+        "independentPeer": {
+          "status": "passed",
+          "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred.",
+          "recordedAt": "2026-10-04T18:58:11.597Z",
+          "scope": "Existing independent technical complete-bank/metadata/helper peer recorded after guarded source26 application. This status does not certify clinical eligibility, full instrument conformance, professional translation or source rights; no new arithmetic/browser execution is claimed by this metadata amendment.",
+          "previousStatus": {
+            "status": "pending",
+            "requiredScope": "Metadata/helper/source-component peer before root application; no clinical approval inferred."
+          },
+          "peer": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-independent-peer-final26-v2-r2.json",
+            "sha256": "28a96906dcfa0ce5272da34613c4ca61686204552a235ebc4adbb65e4ff6868c",
+            "summary": {
+              "checks": 18879,
+              "failed": 0,
+              "methods": 7,
+              "sourceRows": 2902,
+              "uniqueInputs": 2902,
+              "freshExecutions": 8706,
+              "helperAssertions": 25953,
+              "metadataMethods": 120,
+              "metadataRows": 52620,
+              "metadataUnique": 52548,
+              "metadataRepeats": 72
+            },
+            "scope": "Root independent peer of exact41 preimages/afterimages; independently frozen2902 input/expected objects checked before imports; public bank numeric projection excludes untested survival, zones, prose and risk codes. Original862fixtures, fields, methods, versions and approvals retained. Exact helper reversal restores all11 previous scopes;21 fresh Node helper executions replay all7 limited numeric components without clinical approval."
+          },
+          "application": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-application-final26.json",
+            "sha256": "3b1cd7d57c7062aa640504095c1a7eca5b051af7c0c0c8d4d5b1965a869080da"
+          },
+          "reviewedBankScope": "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+          "currentBinding": {
+            "source26BankSha256": "4d9935edc279fbce7758bd84543b69979457067d34719899daf515620a369646",
+            "implementations": [
+              {
+                "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
+                "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/indice-de-van-nuys/calculator.js",
+                "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+              },
+              {
+                "file": "apps/command-center/private/tool-code/indice-de-van-nuys/calculator.js",
+                "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+              }
+            ],
+            "subsequentReviewedRebinds": []
+          },
+          "originalFailuresAndScopeQualificationsPreserved": true,
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed",
+          "sourceRightsApproval": "not-performed",
+          "fullMethodConformance": "not-performed"
+        },
+        "actualAdapterExecutions": 243,
+        "actualVmExecutions": 243,
+        "implementations": [
+          {
+            "id": "indice-de-van-nuys",
+            "app": "website",
+            "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
+            "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+          },
+          {
+            "id": "indice-de-van-nuys",
+            "app": "dashboard",
+            "file": "apps/dashboard/private/tool-code/indice-de-van-nuys/calculator.js",
+            "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+          },
+          {
+            "id": "indice-de-van-nuys",
+            "app": "command-center",
+            "file": "apps/command-center/private/tool-code/indice-de-van-nuys/calculator.js",
+            "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+          }
+        ],
+        "qualifications": [
+          "Silverstein2003 USC/VNPI four selected factors including age: all81 preclassified point tuples, integer sum4–12 only. Author-hosted original text read; no visual publisher table. Source group codes are separately recorded and unexposed by this API. No histopathology/margin classification, fractional-range gap policy, recurrence or treatment approval.",
+          "Original sourceExpected data retained alongside own expected raw-component projections; clinical codes/thresholds and survival fields deliberately excluded from the package replay.",
+          "All862 original historical fixtures/expected values/tolerances and approval flags preserved. Four inline metadata rows are only a declared subset of this complete downloadable bank."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicOutputProjection": {
+          "status": "only-verified-raw-numeric-components",
+          "recordedAt": "2026-10-04T16:49:59.864Z",
+          "sourceEvidence": {
+            "file": "reports/review-20261003/seven-limited-source-independent-check-final26.json",
+            "sha256": "b95bdfad7528cd2f56739eb04b63d3775e93b50844568167df849a489382cd80"
+          },
+          "originalBank": {
+            "file": "reports/review-20261003/seven-limited-source-evidence-stage-final26/apps/website/private/tool-code/indice-de-van-nuys/independent-source-cases.json",
+            "sha256": "6d6dcd2fc8b74eb4951bb2a6c85082f03604c3338aa320243affd8018537d94a"
+          },
+          "originalReportsPreserved": true,
+          "excluded": [
+            "Unexposed MASCC risk flag and USC/VNPI group expectations",
+            "MACIS survival and other untested returned raw fields",
+            "Karvonen exercise-zone main display and all untested main display values",
+            "Original API error prose; only rejection presence is tested"
+          ],
+          "clinicalApproval": "not-performed",
+          "professionalLanguageApproval": "not-performed"
+        },
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+    },
+    "limits": "O USC/VNPI 2003 foi estudado em CDIS puro tratado com cirurgia conservadora e acrescenta idade aos três fatores anteriores. Não é o índice original de três fatores nem deve ser aplicado automaticamente ao carcinoma invasivo. As sugestões de tratamento refletem a base descrita e exigem avaliação clínica e evidência contemporânea.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.055Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Resumo não confirma todos os limiares de cada fator ou eficácia de randomização. Não aplica automaticamente a câncer invasivo, nem substitui decisão oncológica atual."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
+    "bytes": 5165,
+    "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "3b31035d2600300a25e6419987491db0087ae60db55aeff04c0d0674b28dd90c",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "969c9121b7cb447552c69af6f3d8c0ab2a704ae3d307f1835a0257d52b39dac4",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "969c9121b7cb447552c69af6f3d8c0ab2a704ae3d307f1835a0257d52b39dac4",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }

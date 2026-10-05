@@ -1,6 +1,15 @@
 [
   {
-    "label": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+    "id": "indice-de-van-nuys",
+    "kind": "native-source-reference",
+    "index": 0,
+    "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+    "originalInput": {
+      "tam": "1",
+      "margem": "1",
+      "pato": "1",
+      "idade": "1"
+    },
     "input": {
       "tam": "1",
       "margem": "1",
@@ -11,16 +20,36 @@
       "score": 4,
       "level": "low"
     },
-    "originalInput": {
-      "tam": "1",
-      "margem": "1",
-      "pato": "1",
-      "idade": "1"
+    "recordedResult": {
+      "main": [
+        "4",
+        "de 12"
+      ],
+      "label": "USC/VNPI",
+      "raw": {
+        "score": 4
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+    "id": "indice-de-van-nuys",
+    "kind": "native-source-reference",
+    "index": 1,
+    "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+    "originalInput": {
+      "tam": "2",
+      "margem": "2",
+      "pato": "2",
+      "idade": "1"
+    },
     "input": {
       "tam": "2",
       "margem": "2",
@@ -31,16 +60,36 @@
       "score": 7,
       "level": "mid"
     },
-    "originalInput": {
-      "tam": "2",
-      "margem": "2",
-      "pato": "2",
-      "idade": "1"
+    "recordedResult": {
+      "main": [
+        "7",
+        "de 12"
+      ],
+      "label": "USC/VNPI",
+      "raw": {
+        "score": 7
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   },
   {
-    "label": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+    "id": "indice-de-van-nuys",
+    "kind": "native-source-reference",
+    "index": 2,
+    "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+    "originalInput": {
+      "tam": "3",
+      "margem": "3",
+      "pato": "3",
+      "idade": "2"
+    },
     "input": {
       "tam": "3",
       "margem": "3",
@@ -51,16 +100,36 @@
       "score": 11,
       "level": "high"
     },
+    "recordedResult": {
+      "main": [
+        "11",
+        "de 12"
+      ],
+      "label": "USC/VNPI",
+      "raw": {
+        "score": 11
+      }
+    },
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
+  },
+  {
+    "id": "indice-de-van-nuys",
+    "kind": "native-source-reference",
+    "index": 3,
+    "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
     "originalInput": {
-      "tam": "3",
+      "tam": "2",
       "margem": "3",
       "pato": "3",
       "idade": "2"
     },
-    "expandedZeroOptions": []
-  },
-  {
-    "label": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
     "input": {
       "tam": "2",
       "margem": "3",
@@ -71,12 +140,23 @@
       "score": 10,
       "level": "high"
     },
-    "originalInput": {
-      "tam": "2",
-      "margem": "3",
-      "pato": "3",
-      "idade": "2"
+    "recordedResult": {
+      "main": [
+        "10",
+        "de 12"
+      ],
+      "label": "USC/VNPI",
+      "raw": {
+        "score": 10
+      }
     },
-    "expandedZeroOptions": []
+    "provenance": {
+      "bank": {
+        "file": "reports/review-20261003/source-cases-audit.json",
+        "bytes": 885399,
+        "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3"
+      },
+      "scope": "Existing recorded synthetic source expectations and source-audit transport baseline; no new independent oracle"
+    }
   }
 ]
