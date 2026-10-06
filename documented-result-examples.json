@@ -1,0 +1,707 @@
+{
+  "id": "indice-de-van-nuys",
+  "implementationVersion": "indice-de-van-nuys@native-2026-10-05+bf7e19929673",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 a 6: considerar excisão isolada",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 a 9: excisão com radioterapia (ou reexcisão se a margem for < 10 mm)",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 a 12: considerar mastectomia",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 a 12: considerar mastectomia",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 to 6: consider excision alone",
+            "locale": "en",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "In Silverstein's series, radiotherapy did not change local recurrence-free survival at 12 years in this group.",
+            "locale": "en",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 to 9: excision with radiotherapy (or re-excision if the margin is < 10 mm)",
+            "locale": "en",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "Radiotherapy provided an average gain of 12 to 15% in local recurrence-free survival.",
+            "locale": "en",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 to 12: consider mastectomy",
+            "locale": "en",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Local recurrence of almost 50% at 5 years with breast-conserving surgery, even with radiotherapy; re-excision only if technically feasible.",
+            "locale": "en",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 to 12: consider mastectomy",
+            "locale": "en",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Local recurrence of almost 50% at 5 years with breast-conserving surgery, even with radiotherapy; re-excision only if technically feasible.",
+            "locale": "en",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 a 6: considerar exéresis sola",
+            "locale": "es",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "En la serie de Silverstein, la radioterapia no modificó la supervivencia libre de recidiva local a los 12 años en este grupo.",
+            "locale": "es",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 a 9: exéresis con radioterapia (o reexéresis si el margen es < 10 mm)",
+            "locale": "es",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "La radioterapia proporcionó una ganancia media de 12 a 15% en la supervivencia libre de recidiva local.",
+            "locale": "es",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 a 12: considerar mastectomía",
+            "locale": "es",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Recidiva local de casi 50% a los 5 años con cirugía conservadora, incluso con radioterapia; reexéresis solo si es técnicamente posible.",
+            "locale": "es",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 a 12: considerar mastectomía",
+            "locale": "es",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Recidiva local de casi 50% a los 5 años con cirugía conservadora, incluso con radioterapia; reexéresis solo si es técnicamente posible.",
+            "locale": "es",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 à 6 : envisager l’exérèse seule",
+            "locale": "fr",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "Dans la série de Silverstein, la radiothérapie n’a pas modifié la survie sans récidive locale à 12 ans dans ce groupe.",
+            "locale": "fr",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 à 9 : exérèse avec radiothérapie (ou réexérèse si la marge est < 10 mm)",
+            "locale": "fr",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "La radiothérapie a apporté un gain moyen de 12 à 15% en survie sans récidive locale.",
+            "locale": "fr",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 à 12 : envisager une mastectomie",
+            "locale": "fr",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Récidive locale de près de 50% à 5 ans avec chirurgie conservatrice, même avec radiothérapie ; réexérèse uniquement si techniquement possible.",
+            "locale": "fr",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 à 12 : envisager une mastectomie",
+            "locale": "fr",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Récidive locale de près de 50% à 5 ans avec chirurgie conservatrice, même avec radiothérapie ; réexérèse uniquement si techniquement possible.",
+            "locale": "fr",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 bis 6: alleinige Exzision erwägen",
+            "locale": "de",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "In der Serie von Silverstein veränderte die Strahlentherapie in dieser Gruppe das lokale rezidivfreie Überleben nach 12 Jahren nicht.",
+            "locale": "de",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 bis 9: Exzision mit Strahlentherapie (oder Re-Exzision, wenn der Rand < 10 mm ist)",
+            "locale": "de",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "Die Strahlentherapie brachte einen durchschnittlichen Gewinn von 12 bis 15% beim lokalen rezidivfreien Überleben.",
+            "locale": "de",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 bis 12: Mastektomie erwägen",
+            "locale": "de",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Lokales Rezidiv von fast 50% nach 5 Jahren bei brusterhaltender Operation, auch mit Strahlentherapie; Re-Exzision nur, wenn technisch möglich.",
+            "locale": "de",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 bis 12: Mastektomie erwägen",
+            "locale": "de",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Lokales Rezidiv von fast 50% nach 5 Jahren bei brusterhaltender Operation, auch mit Strahlentherapie; Re-Exzision nur, wenn technisch möglich.",
+            "locale": "de",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Da 4 a 6: considerare l’escissione da sola",
+            "locale": "it",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "Nella serie di Silverstein, la radioterapia non ha modificato la sopravvivenza libera da recidiva locale a 12 anni in questo gruppo.",
+            "locale": "it",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Da 7 a 9: escissione con radioterapia (o re-escissione se il margine è < 10 mm)",
+            "locale": "it",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "La radioterapia ha determinato un guadagno medio di 12 a 15% nella sopravvivenza libera da recidiva locale.",
+            "locale": "it",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Da 10 a 12: considerare la mastectomia",
+            "locale": "it",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Recidiva locale di quasi 50% a 5 anni con chirurgia conservativa, anche con radioterapia; re-escissione solo se tecnicamente fattibile.",
+            "locale": "it",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "Da 10 a 12: considerare la mastectomia",
+            "locale": "it",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "Recidiva locale di quasi 50% a 5 anni con chirurgia conservativa, anche con radioterapia; re-escissione solo se tecnicamente fattibile.",
+            "locale": "it",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 إلى 6: النظر في الاستئصال وحده",
+            "locale": "ar",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "في سلسلة Silverstein، لم يغيّر العلاج الإشعاعي البقاء دون نكس موضعي عند 12 عامًا في هذه المجموعة.",
+            "locale": "ar",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 إلى 9: استئصال مع العلاج الإشعاعي (أو إعادة الاستئصال إذا كانت الحافة < 10 mm)",
+            "locale": "ar",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "أدى العلاج الإشعاعي إلى فائدة متوسطة قدرها 12 إلى 15% في البقاء دون نكس موضعي.",
+            "locale": "ar",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 إلى 12: النظر في استئصال الثدي",
+            "locale": "ar",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "نكس موضعي يقارب 50% خلال 5 سنوات مع الجراحة المحافظة على الثدي، حتى مع العلاج الإشعاعي؛ إعادة الاستئصال فقط إذا كان ذلك ممكنًا تقنيًا.",
+            "locale": "ar",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 إلى 12: النظر في استئصال الثدي",
+            "locale": "ar",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "نكس موضعي يقارب 50% خلال 5 سنوات مع الجراحة المحافظة على الثدي، حتى مع العلاج الإشعاعي؛ إعادة الاستئصال فقط إذا كان ذلك ممكنًا تقنيًا.",
+            "locale": "ar",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 至 6：考虑单纯切除",
+            "locale": "zh",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "在 Silverstein 的系列中，放射治疗未改变该组 12 年时的局部无复发生存率。",
+            "locale": "zh",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 至 9：切除联合放疗（或如切缘 < 10 mm，则再次切除）",
+            "locale": "zh",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "放射治疗使局部无复发生存率平均提高了 12 至 15%。",
+            "locale": "zh",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 至 12：考虑乳房切除术",
+            "locale": "zh",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "保乳手术后 5 年局部复发率接近 50%，即使联合放疗亦然；仅在技术上可行时才再次切除。",
+            "locale": "zh",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 至 12：考虑乳房切除术",
+            "locale": "zh",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "保乳手术后 5 年局部复发率接近 50%，即使联合放疗亦然；仅在技术上可行时才再次切除。",
+            "locale": "zh",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4～6：切除単独を考慮",
+            "locale": "ja",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "Silverstein のシリーズでは、この群において放射線療法は12年局所再発無生存率を変化させなかった。",
+            "locale": "ja",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7～9：放射線療法を伴う切除（または断端が < 10 mm の場合は再切除）",
+            "locale": "ja",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "放射線療法により、局所再発無生存率は平均12～15%改善した。",
+            "locale": "ja",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10～12：乳房切除術を考慮",
+            "locale": "ja",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "乳房温存手術では、放射線療法を行っても5年で局所再発は約50%に達する；再切除は技術的に可能な場合のみ。",
+            "locale": "ja",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10～12：乳房切除術を考慮",
+            "locale": "ja",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "乳房温存手術では、放射線療法を行っても5年で局所再発は約50%に達する；再切除は技術的に可能な場合のみ。",
+            "locale": "ja",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "4 से 6: केवल एक्सीजन पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-f7672621f872858c06bf"
+          },
+          "note": {
+            "text": "Silverstein की श्रृंखला में, इस समूह में विकिरण चिकित्सा ने 12 वर्षों पर स्थानीय पुनरावृत्ति-मुक्त जीवितता को नहीं बदला।",
+            "locale": "hi",
+            "template": "documented-authored-031b5759d6c328a079de"
+          },
+          "level": "low"
+        }
+      },
+      {
+        "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "7 से 9: विकिरण चिकित्सा के साथ एक्सीजन (या यदि मार्जिन < 10 mm हो तो पुनः-एक्सीजन)",
+            "locale": "hi",
+            "template": "documented-authored-6f17496f843c9d5a3e23"
+          },
+          "note": {
+            "text": "विकिरण चिकित्सा से स्थानीय पुनरावृत्ति-मुक्त जीवितता में औसतन 12 से 15% की वृद्धि हुई।",
+            "locale": "hi",
+            "template": "documented-authored-99a571a401fe3f86ce30"
+          },
+          "level": "mid"
+        }
+      },
+      {
+        "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 से 12: मास्टेक्टॉमी पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "स्तन-संरक्षण सर्जरी के साथ 5 वर्षों में लगभग 50% स्थानीय पुनरावृत्ति, विकिरण चिकित्सा के बावजूद; पुनः-एक्सीजन केवल तभी जब तकनीकी रूप से संभव हो।",
+            "locale": "hi",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      },
+      {
+        "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+        "output": {
+          "rows": [],
+          "verdict": {
+            "text": "10 से 12: मास्टेक्टॉमी पर विचार करें",
+            "locale": "hi",
+            "template": "documented-authored-46e7801e5d2eec81e6d0"
+          },
+          "note": {
+            "text": "स्तन-संरक्षण सर्जरी के साथ 5 वर्षों में लगभग 50% स्थानीय पुनरावृत्ति, विकिरण चिकित्सा के बावजूद; पुनः-एक्सीजन केवल तभी जब तकनीकी रूप से संभव हो।",
+            "locale": "hi",
+            "template": "documented-authored-72281923d6c558022bfb"
+          },
+          "level": "high"
+        }
+      }
+    ]
+  }
+}

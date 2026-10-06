@@ -83,3 +83,35 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+4 to 6: consider excision alone
+
+In Silverstein's series, radiotherapy did not change local recurrence-free survival at 12 years in this group.
+
+
+### 2
+
+7 to 9: excision with radiotherapy (or re-excision if the margin is < 10 mm)
+
+Radiotherapy provided an average gain of 12 to 15% in local recurrence-free survival.
+
+
+### 3
+
+10 to 12: consider mastectomy
+
+Local recurrence of almost 50% at 5 years with breast-conserving surgery, even with radiotherapy; re-excision only if technically feasible.
+
+
+### 4
+
+10 to 12: consider mastectomy
+
+Local recurrence of almost 50% at 5 years with breast-conserving surgery, even with radiotherapy; re-excision only if technically feasible.
+

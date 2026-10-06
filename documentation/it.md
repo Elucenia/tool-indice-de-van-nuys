@@ -83,3 +83,35 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Da 4 a 6: considerare l’escissione da sola
+
+Nella serie di Silverstein, la radioterapia non ha modificato la sopravvivenza libera da recidiva locale a 12 anni in questo gruppo.
+
+
+### 2
+
+Da 7 a 9: escissione con radioterapia (o re-escissione se il margine è < 10 mm)
+
+La radioterapia ha determinato un guadagno medio di 12 a 15% nella sopravvivenza libera da recidiva locale.
+
+
+### 3
+
+Da 10 a 12: considerare la mastectomia
+
+Recidiva locale di quasi 50% a 5 anni con chirurgia conservativa, anche con radioterapia; re-escissione solo se tecnicamente fattibile.
+
+
+### 4
+
+Da 10 a 12: considerare la mastectomia
+
+Recidiva locale di quasi 50% a 5 anni con chirurgia conservativa, anche con radioterapia; re-escissione solo se tecnicamente fattibile.
+

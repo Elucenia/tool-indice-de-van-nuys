@@ -83,3 +83,35 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+4 bis 6: alleinige Exzision erwägen
+
+In der Serie von Silverstein veränderte die Strahlentherapie in dieser Gruppe das lokale rezidivfreie Überleben nach 12 Jahren nicht.
+
+
+### 2
+
+7 bis 9: Exzision mit Strahlentherapie (oder Re-Exzision, wenn der Rand < 10 mm ist)
+
+Die Strahlentherapie brachte einen durchschnittlichen Gewinn von 12 bis 15% beim lokalen rezidivfreien Überleben.
+
+
+### 3
+
+10 bis 12: Mastektomie erwägen
+
+Lokales Rezidiv von fast 50% nach 5 Jahren bei brusterhaltender Operation, auch mit Strahlentherapie; Re-Exzision nur, wenn technisch möglich.
+
+
+### 4
+
+10 bis 12: Mastektomie erwägen
+
+Lokales Rezidiv von fast 50% nach 5 Jahren bei brusterhaltender Operation, auch mit Strahlentherapie; Re-Exzision nur, wenn technisch möglich.
+

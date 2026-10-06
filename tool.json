@@ -315,7 +315,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "USC/VNPI/Silverstein 2003:4 fatores incluindoidade, total 4–12; sem VNPI 3 fatores",
-    "implementationVersion": "indice-de-van-nuys@native-2026-10-03+6869d54ae95f",
+    "implementationVersion": "indice-de-van-nuys@native-2026-10-05+bf7e19929673",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/14553846/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -585,7 +585,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+      "implementationHash": "bf7e19929673ded9f4ec10ad422a437d3bb3691b26019001b95da118ce6826c4",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "indice-de-van-nuys@native-2026-10-03+6869d54ae95f",
+          "previousImplementationHash": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f",
+          "implementationHash": "bf7e19929673ded9f4ec10ad422a437d3bb3691b26019001b95da118ce6826c4",
+          "scientificBodySha256": "e85276683115c11c8a08c490b617391606f7137a1aaae50779ecc2e6796ea25d",
+          "metadataContractHash": "5f50280c67ce2b54a13b605524f6fe36f69ef4821f053b769739ff34f9d8f21f",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "O USC/VNPI 2003 foi estudado em CDIS puro tratado com cirurgia conservadora e acrescenta idade aos três fatores anteriores. Não é o índice original de três fatores nem deve ser aplicado automaticamente ao carcinoma invasivo. As sugestões de tratamento refletem a base descrita e exigem avaliação clínica e evidência contemporânea.",
     "sourceLimitEvidence": {
@@ -604,20 +632,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/indice-de-van-nuys/calculator.js",
-    "bytes": 5165,
-    "sha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f"
+    "bytes": 5370,
+    "sha256": "bf7e19929673ded9f4ec10ad422a437d3bb3691b26019001b95da118ce6826c4"
   },
-  "sourceToolSha256": "3b31035d2600300a25e6419987491db0087ae60db55aeff04c0d0674b28dd90c",
+  "sourceToolSha256": "68c661664075ee348d542bce73f9d323365caeb3cfecf8d2b1c1635aaabd60f9",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "969c9121b7cb447552c69af6f3d8c0ab2a704ae3d307f1835a0257d52b39dac4",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "969c9121b7cb447552c69af6f3d8c0ab2a704ae3d307f1835a0257d52b39dac4",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

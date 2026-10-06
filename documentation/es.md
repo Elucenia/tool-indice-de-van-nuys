@@ -83,3 +83,35 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+4 a 6: considerar exéresis sola
+
+En la serie de Silverstein, la radioterapia no modificó la supervivencia libre de recidiva local a los 12 años en este grupo.
+
+
+### 2
+
+7 a 9: exéresis con radioterapia (o reexéresis si el margen es < 10 mm)
+
+La radioterapia proporcionó una ganancia media de 12 a 15% en la supervivencia libre de recidiva local.
+
+
+### 3
+
+10 a 12: considerar mastectomía
+
+Recidiva local de casi 50% a los 5 años con cirugía conservadora, incluso con radioterapia; reexéresis solo si es técnicamente posible.
+
+
+### 4
+
+10 a 12: considerar mastectomía
+
+Recidiva local de casi 50% a los 5 años con cirugía conservadora, incluso con radioterapia; reexéresis solo si es técnicamente posible.
+

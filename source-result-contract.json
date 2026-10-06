@@ -1,0 +1,224 @@
+{
+  "schema": "elucenia-public-source-result-preservation-v1",
+  "id": "indice-de-van-nuys",
+  "source": {
+    "baselineFile": "reports/review-20261005-completion/public-native-output-baseline-r2/baseline.json",
+    "baselineSha256": "e5f274fa5acc74566e1c3d55afb6bb402ad9928337dd77a2945442f5b6c49439",
+    "previousCommit": "131809432dedcdbabd95bad4771d32ab83f7d963",
+    "oldEngineSha256": "6869d54ae95f8ce55fc2387781929accafc61d3a35852f4c4e3c4ef51d1d1b1f",
+    "currentEngineSha256": "bf7e19929673ded9f4ec10ad422a437d3bb3691b26019001b95da118ce6826c4"
+  },
+  "scope": "Existing synthetic inputs and same pinned mathematical-function outputs. Clinical interpretation correctness and professional translation are separate unperformed reviews.",
+  "clinicalApproval": "not-performed",
+  "professionalLanguageReview": "not-performed",
+  "cases": [
+    {
+      "caseIndex": 0,
+      "name": "≤ 15 mm, margem ≥ 10 mm, não alto grau sem necrose, > 60 anos: 4 pontos",
+      "input": {
+        "tam": "1",
+        "margem": "1",
+        "pato": "1",
+        "idade": "1"
+      },
+      "publicOutput": {
+        "id": "indice-de-van-nuys",
+        "main": [
+          "4",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "raw": {
+          "score": 4
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 4,
+        "level": "low"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "4",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "level": "low",
+        "verdict": "4 a 6: considerar excisão isolada",
+        "note": "Na série de Silverstein, a radioterapia não mudou a sobrevida livre de recidiva local em 12 anos neste grupo.",
+        "raw": {
+          "score": 4
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 1,
+      "name": "16-40 mm, margem 1-9 mm, não alto grau com necrose, > 60 anos: 7 pontos (limite)",
+      "input": {
+        "tam": "2",
+        "margem": "2",
+        "pato": "2",
+        "idade": "1"
+      },
+      "publicOutput": {
+        "id": "indice-de-van-nuys",
+        "main": [
+          "7",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "raw": {
+          "score": 7
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 7,
+        "level": "mid"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "7",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "level": "mid",
+        "verdict": "7 a 9: excisão com radioterapia (ou reexcisão se a margem for &lt; 10 mm)",
+        "note": "A radioterapia deu ganho médio de 12 a 15% na sobrevida livre de recidiva local.",
+        "raw": {
+          "score": 7
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 2,
+      "name": "≥ 41 mm, margem < 1 mm, alto grau, 40-60 anos: 11 pontos",
+      "input": {
+        "tam": "3",
+        "margem": "3",
+        "pato": "3",
+        "idade": "2"
+      },
+      "publicOutput": {
+        "id": "indice-de-van-nuys",
+        "main": [
+          "11",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "raw": {
+          "score": 11
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 11,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "11",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "level": "high",
+        "verdict": "10 a 12: considerar mastectomia",
+        "note": "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível.",
+        "raw": {
+          "score": 11
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    },
+    {
+      "caseIndex": 3,
+      "name": "16-40 mm, margem < 1 mm, alto grau, 40-60 anos: 10 pontos (limite)",
+      "input": {
+        "tam": "2",
+        "margem": "3",
+        "pato": "3",
+        "idade": "2"
+      },
+      "publicOutput": {
+        "id": "indice-de-van-nuys",
+        "main": [
+          "10",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "raw": {
+          "score": 10
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "sourceExpected": {
+        "score": 10,
+        "level": "high"
+      },
+      "inspectedSourceOutput": {
+        "main": [
+          "10",
+          "de 12"
+        ],
+        "label": "USC/VNPI",
+        "level": "high",
+        "verdict": "10 a 12: considerar mastectomia",
+        "note": "Recidiva local de quase 50% em 5 anos com cirurgia conservadora, mesmo com radioterapia; reexcisão só se tecnicamente possível.",
+        "raw": {
+          "score": 10
+        }
+      },
+      "numericEquality": true,
+      "inspectionScope": "Same pinned source function, inspected in memory; not an independent formula/clinical oracle.",
+      "state": "source-transport-comparable",
+      "nonemptySourceFields": [
+        "verdict",
+        "level",
+        "note"
+      ],
+      "missingPublicFields": [
+        "verdict",
+        "level",
+        "note"
+      ]
+    }
+  ]
+}

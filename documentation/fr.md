@@ -83,3 +83,35 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+4 à 6 : envisager l’exérèse seule
+
+Dans la série de Silverstein, la radiothérapie n’a pas modifié la survie sans récidive locale à 12 ans dans ce groupe.
+
+
+### 2
+
+7 à 9 : exérèse avec radiothérapie (ou réexérèse si la marge est < 10 mm)
+
+La radiothérapie a apporté un gain moyen de 12 à 15% en survie sans récidive locale.
+
+
+### 3
+
+10 à 12 : envisager une mastectomie
+
+Récidive locale de près de 50% à 5 ans avec chirurgie conservatrice, même avec radiothérapie ; réexérèse uniquement si techniquement possible.
+
+
+### 4
+
+10 à 12 : envisager une mastectomie
+
+Récidive locale de près de 50% à 5 ans avec chirurgie conservatrice, même avec radiothérapie ; réexérèse uniquement si techniquement possible.
+
